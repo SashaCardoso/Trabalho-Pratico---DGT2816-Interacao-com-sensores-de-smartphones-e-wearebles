@@ -1,0 +1,24 @@
+name: wearables2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  audio_session: ^0.2.2
+  flutter:
+    sdk: flutter
+  flutter_notification_listener: ^1.4.0
+  flutter_tts: ^4.2.5
+  provider: ^6.1.5+1
+  wear_plus: ^1.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
